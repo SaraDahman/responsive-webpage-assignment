@@ -1,23 +1,42 @@
 @media (min-width: 600px) {
-  .get-started {
+  #get-started {
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
     padding: 2rem;
-    background-color: antiquewhite;
   }
 
-  .get-started .details {
+  #get-started .image-con {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #get-started .details {
     width: 50%;
     align-items: flex-start;
   }
 
-  .get-started .details p {
+  #get-started .details p {
     text-align: left;
   }
 
-  .get-started .details button {
+  #get-started .details button {
     width: 50%;
+  }
+  /* ========================== */
+  #details {
+    padding: 2rem 7rem;
+  }
+
+  #details p:nth-child(2) {
+    padding: 0 1rem;
+  }
+
+  #details button {
+    width: auto;
+    padding: 0.6rem 1.7rem;
   }
 }
 
@@ -26,9 +45,21 @@
     font-size: 18px;
   }
 
-  .get-started .details button {
+  #get-started .details button {
     width: 30%;
     font-size: 0.6rem;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+  }
+
+  /* ==================== */
+  #details p:nth-child(2) {
+    padding: 0 7rem;
+  }
+
+  #details button {
+    font-size: 0.6rem;
+    border-radius: 50px;
   }
 }
 
@@ -37,36 +68,53 @@
     font-size: 22px;
   }
 
-  .get-started .details {
+  #get-started {
+    gap: 5rem;
+    padding: 5rem;
+  }
+
+  #get-started .details {
     padding-right: 3rem;
   }
 
-  .get-started .details h1 {
+  #get-started .details h1 {
     font-size: 2rem;
   }
 
-  .get-started .details p {
+  #get-started .details p {
     font-size: 1.1rem;
+  }
+  /* ===================== */
+  #details p:nth-child(2) {
+    padding: 0 9rem;
+  }
+
+  #details .icons i {
+    /* font-size: 1.4rem; */
+    height: 5rem;
+    width: 5rem;
+  }
+
+  #details p:nth-child(4) {
+    padding: 0 4rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .get-started {
+  #get-started {
     gap: 5rem;
+    padding: 5rem;
   }
-  .get-started div {
+  #get-started .image-con div {
     width: 15rem;
     height: 15rem;
   }
 
-  .get-started .details h1 {
+  #get-started .details h1 {
     font-size: 3rem;
   }
 
-  .get-started .details p {
-    font-size: 1.4rem;
-  }
-  .get-started .details button {
-    font-size: 0.8rem;
+  #get-started .details p {
+    font-size: 1rem;
   }
 }
