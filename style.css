@@ -5,6 +5,19 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+
+button {
+  text-transform: uppercase;
+  color: #878787;
+  font-size: 0.7rem;
+  border: solid #878787 2px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -144,3 +157,73 @@ nav div {
   cursor: pointer;
 }
 /* ==== end of details section ==== */
+
+/* ==== start of blogs section ==== */
+#blogs-section {
+  padding: 1.5rem 1rem;
+  color: #878787;
+  text-align: center;
+}
+
+#blogs-section hr {
+  width: 15%;
+  height: 2px;
+  background-color: #adadad;
+  margin: 2rem 0;
+}
+
+#blogs-section p {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+#blogs-section .description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#blogs-section .description h2 {
+  margin-bottom: 1.3rem;
+  font-weight: 400;
+}
+
+#blogs-section .blogs {
+  margin-bottom: 4rem;
+}
+
+#blogs-section .blog {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#blogs-section .blog div:nth-child(1) {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#blogs-section .blog div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#blogs-section .blog div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#blogs-section .blog div:nth-child(2) h3 {
+  margin-bottom: 1.5rem;
+}
+
+#blogs-section .details {
+  padding: 0 0 2rem;
+}
+
+/* ==== end of blogs section ==== */
