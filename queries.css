@@ -38,6 +38,16 @@
     width: auto;
     padding: 0.6rem 1.7rem;
   }
+
+  /* ========================== */
+  #blogs-section {
+    padding: 1.5rem 3rem;
+  }
+
+  #blogs-section button {
+    width: auto;
+    padding: 0.6rem 2.5rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -60,6 +70,50 @@
   #details button {
     font-size: 0.6rem;
     border-radius: 50px;
+  }
+  /* =================== */
+
+  #blogs-section hr {
+    margin: 0 0 2rem;
+  }
+
+  #blogs-section .description p {
+    padding: 0 7rem;
+  }
+
+  #blogs-section .description hr {
+    margin: 2rem 0;
+    width: 10%;
+  }
+
+  #blogs-section .blog {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #blogs-section .blog:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  #blogs-section .blog div:nth-child(1) {
+    width: 50%;
+  }
+
+  #blogs-section .blog div:nth-child(2) {
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0 2rem;
+    padding: 3rem 0;
+  }
+
+  #blogs-section .blog div:nth-child(2) p {
+    font-size: 0.8rem;
+  }
+
+  #blogs-section .details p {
+    font-size: 0.9rem;
+    padding: 0 7rem;
+    margin-top: 7rem;
   }
 }
 
@@ -90,13 +144,30 @@
   }
 
   #details .icons i {
-    /* font-size: 1.4rem; */
     height: 5rem;
     width: 5rem;
   }
 
   #details p:nth-child(4) {
     padding: 0 4rem;
+  }
+  /* =================== */
+
+  #blogs-section .description p {
+    padding: 0 10rem;
+  }
+
+  #blogs-section .blog {
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  #blogs-section .blog div:nth-child(1) {
+    width: 40%;
+  }
+
+  #blogs-section .blog div:nth-child(2) {
+    width: 40%;
   }
 }
 
@@ -116,5 +187,9 @@
 
   #get-started .details p {
     font-size: 1rem;
+  }
+  /* ======================= */
+  #blogs-section .description p {
+    padding: 0 15rem;
   }
 }
