@@ -1,0 +1,72 @@
+@media (min-width: 600px) {
+  .get-started {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+  }
+
+  .get-started .details {
+    width: 50%;
+    align-items: flex-start;
+  }
+
+  .get-started .details p {
+    text-align: left;
+  }
+
+  .get-started .details button {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  html {
+    font-size: 18px;
+  }
+
+  .get-started .details button {
+    width: 30%;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
+
+  .get-started .details {
+    padding-right: 3rem;
+  }
+
+  .get-started .details h1 {
+    font-size: 2rem;
+  }
+
+  .get-started .details p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .get-started {
+    gap: 5rem;
+  }
+  .get-started div {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .get-started .details h1 {
+    font-size: 3rem;
+  }
+
+  .get-started .details p {
+    font-size: 1.4rem;
+  }
+  .get-started .details button {
+    font-size: 0.8rem;
+  }
+}
