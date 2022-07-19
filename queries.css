@@ -48,6 +48,12 @@
     width: auto;
     padding: 0.6rem 2.5rem;
   }
+
+  /* ======================= */
+  #info button {
+    width: auto;
+    padding: 0.6rem 2.5rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -114,6 +120,14 @@
     font-size: 0.9rem;
     padding: 0 7rem;
     margin-top: 7rem;
+  }
+  /* =========================== */
+  #info {
+    padding: 6rem 2rem;
+  }
+
+  #info hr {
+    width: 10%;
   }
 }
 
