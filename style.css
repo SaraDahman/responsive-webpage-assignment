@@ -275,3 +275,85 @@ nav div {
 }
 
 /* ==== end of info section ==== */
+
+/* ==== start of footer =====*/
+footer {
+  color: #878787;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+footer div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer div:nth-child(1) hr {
+  width: 15%;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+  margin: 1rem 0;
+}
+
+footer div:nth-child(1) h2 {
+  margin-bottom: 1.5rem;
+}
+
+footer div:nth-child(1) p {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+footer div:nth-child(1) .social-media {
+  display: flex;
+  justify-content: center;
+  color: #565656;
+  margin-bottom: 2rem;
+}
+
+footer div:nth-child(1) .social-media i {
+  font-size: 1.3rem;
+  border-radius: 50%;
+  border: solid #565656 0.5px;
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+footer form {
+  padding: 1rem;
+}
+
+footer form > * {
+  width: 100%;
+  margin: 0.5rem 0;
+  border: solid #adadad 1px;
+  border-radius: 10px;
+}
+
+footer form input {
+  padding: 0.6rem;
+}
+
+footer form button {
+  text-transform: uppercase;
+  color: #878787;
+  font-size: 0.7rem;
+  border: solid #878787 2px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+/* ==== end of footer =====*/
