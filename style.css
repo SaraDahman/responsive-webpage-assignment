@@ -23,7 +23,7 @@ nav div {
   border-radius: 50%;
 }
 /* ==== start of getting started section ==== */
-.get-started {
+#get-started {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -33,38 +33,43 @@ nav div {
   color: #878787;
   background-color: white;
 }
-
-.get-started div {
+#get-started .image-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#get-started .image-con div {
   width: 13rem;
   height: 13rem;
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
 
-.get-started div img {
+#get-started .image-con div img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-.get-started .details {
+#get-started .details {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.get-started .details h1 {
+#get-started .details h1 {
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
 
-.get-started .details p {
+#get-started .details p {
   font-weight: 200;
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.get-started .details button {
+#get-started .details button {
   text-transform: uppercase;
   color: #878787;
   font-size: 0.7rem;
@@ -76,3 +81,66 @@ nav div {
   cursor: pointer;
 }
 /* ==== end of getting started section ==== */
+/* ==== start of details section ==== */
+#details {
+  background-color: #f7f7f7;
+  color: #878787;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#details h2 {
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+}
+
+#details p:nth-child(2) {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#details .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #565656;
+  margin-bottom: 2rem;
+}
+
+#details .icons i {
+  font-size: 1.7rem;
+  border-radius: 50%;
+  border: solid #565656 0.5px;
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+
+#details p:nth-child(4) {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#details button {
+  text-transform: uppercase;
+  color: #878787;
+  font-size: 0.7rem;
+  border: solid #878787 2px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+/* ==== end of details section ==== */
